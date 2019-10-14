@@ -1,0 +1,39 @@
+﻿Name,Assign,Class,Dtae,Reviewed,Status,introduce,频率
+JavaScript堆和栈（内存管理）,,,"Sep 22, 2019",No,JavaScript,,⭐
+引用类型和基本类型,,,"Sep 22, 2019",No,JavaScript,,⭐
+JavaScript-性能优化，函数节流（throttle）与函数去抖（debounce）,,,"Sep 22, 2019",Yes,JavaScript,,⭐
+工厂模式的优势,,from book,"Sep 23, 2019",No,JavaScript,,⭐
+Promise.resolve( ),,,"Sep 23, 2019",No,JavaScript,,⭐
+js运算符顺序,,,,No,JavaScript,,⭐
+new操作符具体干了什么,,,,No,JavaScript,,⭐
+Promise对象的then方法和resolve方法,,难，不理解,,No,JavaScript,,⭐⭐
+filter方法,,,,No,JavaScript,,⭐⭐⭐
+let定义的变量和变量作用域,,,,No,JavaScript,,⭐⭐⭐
+函数和var变量的声明与执行顺序,,,,No,JavaScript,,⭐⭐⭐
+isArray()方法，isArray(ary.prototype) //false,,,,No,JavaScript,,⭐⭐
+为什么0.1+0.2==0.3返回false,,,,No,JavaScript,https://www.jianshu.com/p/62e286bbe076,⭐
+HTTP状态码,,,,No,http,,⭐
+缓存,,,,No,http,,⭐
+跨域,,,,No,http,,⭐
+xss攻击和crdf攻击,,,,No,http,,⭐
+xss攻击，使用html过滤可以解决嘛，有没有不能解决的情况,,,,No,http,,
+协商缓存,,,,No,http,,
+主动触发节点,,,,No,jquery,,
+"遍历对象的方法，documentQueryAll("".aaa"")",,,,No,jquery,,
+textContent,,,,No,jquery,,
+!important提升指定样式的优先级,,,,No,Css,,⭐⭐
+选择器优先级,,,,No,Css,,⭐⭐
+弹性盒子,,,,No,Css,,⭐⭐
+对盒子模型的理解,,,,No,Css,,⭐⭐
+实现自适应布局,,,,No,Css,,⭐⭐⭐
+css module和css scoped的区别和理解,,,,No,Css,,
+canvas将图像画到目标图像上的几种方法,,,,No,Css,,
+Copy of JavaScript堆和栈（内存管理）,,,,No,基础,,⭐
+数据结构的排序算法中稳定的和不稳定的排序算法,,,,No,基础,,⭐⭐
+二叉树的先序、中序、后序遍历,,,,No,基础,,⭐
+MVC和MVVC结构,,,,No,基础,,⭐
+最常见的分支限界法,,,,No,基础,,⭐
+循环链表,,,,No,基础,,⭐
+入栈和出栈顺序问题,,,,No,基础,,⭐
+数据库选设计的原则,,,,No,基础,,⭐
+数据库的ACID原则,,,,No,基础,,⭐
