@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>event prop</title>
+</head>
+<body>
+	<div id="div1">
+        <p id="p1">激活</p>
+        <p id="p2">取消</p>
+        <p id="p3">取消</p>
+        <p id="p4">取消</p>
+    </div>
+    <div id="div2">
+        <p id="p5">取消</p>
+        <p id="p6">取消</p>
+    </div>
+<script type="text/javascript">
+	/****事件冒泡
+	// 通用的事件绑定函数
+function bindEvent(elem, type, fn) {
+    elem.addEventListener(type, fn)
+}
+var body = document.body
+bindEvent(body, 'click', function (e) {
+    // 所有 p 的点击都会冒泡到 body 上，因为 DOM 结构中 body 是 p 的上级节点，事件会沿着 DOM 树向上冒泡
+    alert('取消')
+})
+//点击body区域是取消
+var p1 = document.getElementById('p1');
+bindEvent(p1, 'click', function (e) {
+    e.stopPropagation() // 阻止冒泡
+    alert('激活')
+})
+//点击激活时阻止了事件冒泡，所以只显示激活， 没有显示取消
+*/
+/****事件代理/
+var body = document.body
+body.addEventListener('click', function (e) {
+    alert(e.target.innerText);
+});
+</script>
+</body>
+</html>

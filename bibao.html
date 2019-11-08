@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bibao</title>
+</head>
+<body>
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+	</ul>
+<script type="text/javascript">
+	var list = document.getElementsByTagName("li");
+	for(var i=0;i<list.length;i++){
+		console.log(i);
+		list[i].addEventListener("click",function(i){
+			return function(){
+				alert(i+1);
+			}
+		}(i),true);
+	}
+</script>
+</body>
+</html>
